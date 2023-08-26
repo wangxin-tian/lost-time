@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正方体</title>
+</head>
+
+<body>
+  <style>
+    body {
+      perspective: 12000px;
+    }
+
+    /* 大盒子属性 */
+    .box {
+      width: 200px;
+      height: 200px;
+      margin: 200px 600px;
+      /* 过度 */
+      transition: all 10s;
+      /* 开启3D */
+      transform-style: preserve-3d;
+      position: relative;
+      background-color: rgba(0, 255, 128, 0.5);
+
+    }
+
+    /* 7面共同属性 */
+    .box div {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+    }
+
+    /* 6面各自属性和位移 */
+    .one {
+      background-color: rgba(254, 203, 0, 0.5);
+      transform: translateZ(100px);
+    }
+
+    .two {
+      background-color: rgba(77, 87, 227, 0.5);
+      transform: translateZ(-100px)
+    }
+
+    .three {
+      background-color: rgba(236, 76, 212, 0.5);
+      transform: rotateX(90deg) translateZ(100px);
+    }
+
+    .four {
+      background-color: rgba(85, 238, 80, 0.5);
+      transform: rotateX(90deg) translateZ(-100px);
+    }
+
+    .five {
+      background-color: rgba(80, 235, 238, 0.5);
+      transform: rotatey(-90deg) translateZ(-100px);
+    }
+
+    .six {
+      background-color: rgba(237, 132, 71, 0.5);
+      transform: rotatey(-90deg) translateZ(100px);
+    }
+
+    /* :hover */
+    .box:hover {
+      transform: rotate3d(1, 1, 0, 360deg);
+    }
+  </style>
+
+  <body>
+    <div class="box">
+
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="four"></div>
+      <div class="five"></div>
+      <div class="six"></div>
+    </div>
+  </body>
+</body>
+
+</html>

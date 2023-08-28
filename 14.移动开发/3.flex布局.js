@@ -1,0 +1,37 @@
+/*
+
+  flex布局 弹性盒子
+  display: flex | inline-flex 
+
+  flex 会占满一整行
+  inline-flex 撑开的是内容
+
+  默认水平是主轴
+  默认沿主轴起始排列
+
+  flex容器属性
+  flex-direction 主轴方向 
+    row | row-reserve | column | column-reserve
+  flex-wrap 换行 
+    wrap | nowrap
+  flex-flow flex-direction flex-wrap
+  justify-content 主轴上的对齐方向 
+    flex-start | flex-end | center | space-betwenn | space-around
+  align-items 某一主轴线时交叉轴上的对齐方向
+    stretch 没具体大小栈满容器 | flex-start | 
+    flex-start | flex-end | center | baseline 与元素中字母的基线对齐
+  align-content 多跟主轴线存在时，项目在交叉轴上的对齐
+    stretch 主轴线平分空间 | flex-start 与交叉轴起点对齐 |
+    flex-end | center 整体居中 | space-between 两端对齐，间隔平分 |
+    space-around 平分
+  
+  flex项目属性
+  order 排列顺序 主轴
+    <number> 越大越往后,可以是负数
+  flex-grow 放大 主轴
+    <number> 放大后会平分，分的是剩余空间，不包含自身的空间
+  flex-shrink 缩小 主轴
+  flex-basis 分配剩余空间之前项目占据主轴的大小 
+  flex flex-grow || flex-grow | flex-basis
+  align-self 允许单个项目有和其他项目不同的排列方式
+*/

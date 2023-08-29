@@ -1,0 +1,79 @@
+<!-- 
+
+  createApp()创建应用
+  传入的参数是最外层的组件
+  视图组件vm = app.mount('#root');返回的是根组件
+  vm.$data.value
+
+  生命周期函数
+    createApp
+    分析逻辑和事件绑定
+    beforeCreate()
+    init 数据
+    created()
+    template option
+      has: 
+          编译模板到渲染函数
+      not has:
+          取根节点中的innerHTML进行渲染函数编译
+    beforeMount() 这个时间是无法获得元素的
+    新的内容挂载到页面,即执行渲染
+    mounted()  
+    
+    数据操作 前：beforeUpdate() 后：updated()
+    
+    vue实例销毁时执行 app.unmount()
+    beforeUnmount()销毁前
+    unmouted()完全销毁后自动执行
+    
+
+  template
+    {{ 表达式，但不能写语句 }}
+    v-bind === :
+    v-once 不会用新的变更去做渲染
+    v-on === @
+    [name] 动态属性
+
+    数据 vm.$data.value
+    根数据 vm.value
+
+    需要this的时候，不用箭头函数
+
+    computed中的都是计算属性
+      某属性是通过其他属性计算出来的，当其他属性发生变化时，我也改变
+      可以通过计算属性实现就使用computed，然后考虑方法或者watch
+
+    watch
+      变量名(current, prev) {} 监听变量的改变
+
+
+  样式
+    class的值可以是
+      字符串，对象，数组
+    $attrs.class
+
+    style的值可以是
+      字符，对象
+
+  v-if 通过元素的存在展示
+  v-else-if
+  v-else
+  else
+  v-show 通过样式展示
+
+
+  父组件: v-model:valuename=''
+  子组件: this.$emit('update:valuename', changevalue);
+
+  v-model.uppercase="count"
+  props: {
+    'modelValue': String,
+    'modelModifiers': {
+      default: () => ({})
+    }
+  }
+  修饰符的功能最后会给到default的返回值中
+
+  使用v-mode对应要接收的参数是modelValue
+  触发事件为update:modelValue
+ -->

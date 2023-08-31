@@ -36,5 +36,27 @@
     slots ,
     emit
   }
+
+  setup 将数据和方法抽离成函数导出来
+
+  computed get set
+
+  watch 惰性执行 可以拿到当前值和原始值 同时监听多个内容
+    watch (name 如果属性是reactive的对象中的属性要用箭头函数返回属性() => obj.name, (current, pre) => {}) 
+    watch([ name1, name2], ([current, pre], [current, pre]) => {}, {  })
+
+  watchEffect(() => {}) 立即执行 但如果没有对响应式的值的引用时不会做任何监听
+    返回取消监听的函数 stop
+
+
+  Effect 纯函数即固定的请求有固定的输出
+    但如果使用到计时器之类的异步请求就是effect，
+
+  onBeforeMount(fn(){})
+  onMounted 挂载
+  onBeforeUpdate 渲染之前
+  onUpdate
+  onBeforeUnmount 组件移除前
+  unmounted 组件移除后
 -->
 

@@ -44,4 +44,6 @@
       (<string>message).endsWidth();
       (message as string).endsWidth();
       
+
+    函数的可选和默认参数都必须在末尾
 */

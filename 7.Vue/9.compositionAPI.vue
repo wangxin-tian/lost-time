@@ -58,5 +58,7 @@
   onUpdate
   onBeforeUnmount 组件移除前
   unmounted 组件移除后
+  onRenderTraked 每次渲染时收集响应式依赖会执行
+  onRenderTriggered 重新渲染被触发的时候
 -->
 

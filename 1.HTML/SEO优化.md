@@ -1,5 +1,8 @@
-/*
-1. <title>
+# seo优化
+
+```js
+
+ 1. <title>
    文章页title写法，一般有3种：“文章标题-网站名称”、“内容标题-栏目名称-网站名称”、“内容标题-网站名称”
  2. <meta name="description" content="网页概述">
    概述内容, 也可以尝试keywords写法——> key1、key2、key3...
@@ -33,7 +36,8 @@
  10. 在不使用ssr的情况下可以尝试使用 prerender-spa-plugin 插件来实现预渲染页面，
      在构建时就针对特定的路有生成静态的 html 文件
 
+```
+
  参考：
  [](https://blog.csdn.net/qq_38974163/article/details/129028227?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169292669616800227447103%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169292669616800227447103&biz_id=0&utm_medium=distribute.pc_chrome_plugin_search_result.none-task-blog-2~all~top_positive~default-1-129028227-null-null.nonecase&utm_term=seo%E4%BC%98%E5%8C%96&spm=1018.2226.3001.4187)
  [](https://blog.csdn.net/qq_52301431/article/details/123646935?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169292669616800227447103%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169292669616800227447103&biz_id=0&utm_medium=distribute.pc_chrome_plugin_search_result.none-task-blog-2~all~top_click~default-2-123646935-null-null.nonecase&utm_term=seo%E4%BC%98%E5%8C%96&spm=1018.2226.3001.4187)
-*/

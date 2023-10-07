@@ -1,0 +1,2 @@
+ git remote remove origin
+ git remote add origin gitlab:web/oa-react-web

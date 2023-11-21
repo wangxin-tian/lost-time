@@ -1,0 +1,9 @@
+ git remote remove origin
+ git remote add origin gitlab:web/oa-react-web
+
+ 等价
+
+ git remote set-url origin gitlab:web/oa-react-web
+
+ 检查
+ git remote -v.

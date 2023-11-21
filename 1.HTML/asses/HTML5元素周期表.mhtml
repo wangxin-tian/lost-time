@@ -1,0 +1,1870 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.xuanfengge.com/funny/html5/element/
+Subject: =?utf-8?Q?HTML5=E5=85=83=E7=B4=A0=E5=91=A8=E6=9C=9F=E8=A1=A8?=
+Date: Tue, 21 Nov 2023 23:21:23 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Trj65G1SADnvjfZEdhB6nRDpe73GgVxMqO3lBuPbjc----"
+
+
+------MultipartBoundary--Trj65G1SADnvjfZEdhB6nRDpe73GgVxMqO3lBuPbjc----
+Content-Type: text/html
+Content-ID: <frame-92D430360E353327FBCE5996D44627D5@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.xuanfengge.com/funny/html5/element/
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+=09
+	<link rel=3D"stylesheet" href=3D"https://www.xuanfengge.com/funny/html5/el=
+ement/css/reset.css">
+	<link rel=3D"stylesheet" href=3D"https://www.xuanfengge.com/funny/html5/el=
+ement/css/style.css">
+	<link rel=3D"stylesheet" href=3D"https://www.xuanfengge.com/funny/html5/el=
+ement/css/periodic-table.css">
+=09
+	<title>HTML5=E5=85=83=E7=B4=A0=E5=91=A8=E6=9C=9F=E8=A1=A8</title>
+<img style=3D"width:0;height:0;display:none;visibility:hidden;" src=3D"http=
+s://milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;mid=3D&amp;tid=3D8918&=
+amp;rid=3DLAUNCHED&amp;t=3D1700579881111" mxj8nk08x=3D""></head>
+<body style=3D"">
+<div id=3D"content">
+=09
+
+<h1 class=3D"star">Periodic Table of the HTML5 Elements</h1>
+
+<table id=3D"elements" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td class=3D"">
+<div class=3D"element root">
+<div class=3D"info" style=3D"display: none;">
+	<h3>&lt;html&gt;</h3>
+	<p>Document root element.</p>	<ul class=3D"links"><li><a href=3D"https://d=
+eveloper.mozilla.org/en/HTML/Element/html">Mozilla</a></li><li><a href=3D"h=
+ttp://www.w3.org/TR/html5/semantics.html#the-html-element-0">W3C Reference<=
+/a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">html</div>
+</div></td><td></td><td></td><td></td><td class=3D""></td><td></td><td></td=
+><td class=3D""></td><td></td><td></td><td></td><td></td><td></td><td></td>=
+<td></td><td></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;col&gt;</h3>
+	<p>Columns in a table.</p>	<ul class=3D"links"><li><a href=3D"https://deve=
+loper.mozilla.org/en/HTML/Element/col">Mozilla</a></li><li><a href=3D"http:=
+//www.w3.org/TR/html5/tabular-data.html#the-col-element">W3C Reference</a><=
+/li></ul>
+</div>
+<div class=3D"icon" style=3D"">col</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;table&gt;</h3>
+	<p>Table of multi-dimensional data.</p>	<ul class=3D"links"><li><a href=3D=
+"https://developer.mozilla.org/en/HTML/Element/table">Mozilla</a></li><li><=
+a href=3D"http://www.w3.org/TR/html5/tabular-data.html#the-table-element">W=
+3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">table</div>
+</div></td></tr>
+<tr>
+<td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;head&gt;</h3>
+	<p>First element of the HTML document. Contains document metadata.</p>	<ul=
+ class=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Eleme=
+nt/head">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/semantic=
+s.html#the-head-element-0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">head</div>
+</div></td><td class=3D"">
+<div class=3D"element text">
+<div class=3D"info" style=3D"display: none;">
+	<h3>&lt;span&gt;</h3>
+	<p>Container with no semantic meaning.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/span">Mozilla</a></li><li=
+><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the-span-e=
+lement">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">span</div>
+</div></td><td></td><td></td><td></td><td class=3D"active"></td><td></td><t=
+d></td><td></td><td></td><td class=3D"">
+<div class=3D"element grouping">
+<div class=3D"info" style=3D"display: none;">
+	<h3>&lt;div&gt;</h3>
+	<p>Container with no semantic meaning.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/div">Mozilla</a></li><li>=
+<a href=3D"http://www.w3.org/TR/html5/grouping-content.html#the-div-element=
+">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">div</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;fieldset&gt;</h3>
+	<p>Set of form controls grouped by theme.</p>	<ul class=3D"links"><li><a h=
+ref=3D"https://developer.mozilla.org/en/HTML/Element/fieldset">Mozilla</a><=
+/li><li><a href=3D"http://www.w3.org/TR/html5/rendering.html#the-fieldset-e=
+lement-0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">fieldset</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;form&gt;</h3>
+	<p>Form.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mozilla.=
+org/en/HTML/Element/form">Mozilla</a></li><li><a href=3D"http://www.w3.org/=
+TR/html5/forms.html#the-form-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">form</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;body&gt;</h3>
+	<p>Document content.</p>	<ul class=3D"links"><li><a href=3D"https://develo=
+per.mozilla.org/en/HTML/Element/body">Mozilla</a></li><li><a href=3D"http:/=
+/www.w3.org/TR/html5/sections.html#the-body-element-0">W3C Reference</a></l=
+i></ul>
+</div>
+<div class=3D"icon" style=3D"">body</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;h1&gt;</h3>
+	<p>Heading for the current section.</p>	<ul class=3D"links"><li><a href=3D=
+"https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/sections.html#the-h1-h2-h3-h4-h5-and-h6-=
+elements">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">h1</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;section&gt;</h3>
+	<p>Contains elements grouped by theme, for example a chapter or tab box.</=
+p>	<ul class=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML=
+/Element/section">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5=
+/sections.html#the-section-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">section</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;colgroup&gt;</h3>
+	<p>Defines a group of columns in a table.</p>	<ul class=3D"links"><li><a h=
+ref=3D"https://developer.mozilla.org/en/HTML/Element/colgroup">Mozilla</a><=
+/li><li><a href=3D"http://www.w3.org/TR/html5/tabular-data.html#the-colgrou=
+p-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">colgroup</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;tr&gt;</h3>
+	<p>A row of cells.</p>	<ul class=3D"links"><li><a href=3D"https://develope=
+r.mozilla.org/en/HTML/Element/tr">Mozilla</a></li><li><a href=3D"http://www=
+.w3.org/TR/html5/tabular-data.html#the-tr-element">W3C Reference</a></li></=
+ul>
+</div>
+<div class=3D"icon" style=3D"">tr</div>
+</div></td></tr>
+<tr>
+<td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;title&gt;</h3>
+	<p>Document title.</p>	<ul class=3D"links"><li><a href=3D"https://develope=
+r.mozilla.org/en/HTML/Element/title">Mozilla</a></li><li><a href=3D"http://=
+www.w3.org/TR/html5/semantics.html#the-title-element-0">W3C Reference</a></=
+li></ul>
+</div>
+<div class=3D"icon" style=3D"">title</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;a&gt;</h3>
+	<p>Hyperlink.</p>	<ul class=3D"links"><li><a href=3D"https://developer.moz=
+illa.org/en/HTML/Element/a">Mozilla</a></li><li><a href=3D"http://www.w3.or=
+g/TR/html5/text-level-semantics.html#the-a-element">W3C Reference</a></li><=
+/ul>
+</div>
+<div class=3D"icon" style=3D"">a</div>
+</div></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><=
+td></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;pre&gt;</h3>
+	<p>Text that is preformatted in the HTML code.</p>	<ul class=3D"links"><li=
+><a href=3D"https://developer.mozilla.org/en/HTML/Element/pre">Mozilla</a><=
+/li><li><a href=3D"http://www.w3.org/TR/html5/grouping-content.html#the-pre=
+-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">pre</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;meter&gt;</h3>
+	<p>Control for entering a numeric value in a known range.</p>	<ul class=3D=
+"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/meter"=
+>Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/rendering.html#t=
+he-meter-element-0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">meter</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;select&gt;</h3>
+	<p>Control for selecting from multiple options.</p>	<ul class=3D"links"><l=
+i><a href=3D"https://developer.mozilla.org/en/HTML/Element/select">Mozilla<=
+/a></li><li><a href=3D"http://www.w3.org/TR/html5/rendering.html#the-select=
+-element-0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">select</div>
+</div></td><td class=3D"">
+<div class=3D"element sections">
+<div class=3D"info" style=3D"display: none;">
+	<h3>&lt;aside&gt;</h3>
+	<p>Content related to surrounding elements that doesn't belong inline, suc=
+h as a advertising or quotes.</p>	<ul class=3D"links"><li><a href=3D"https:=
+//developer.mozilla.org/en/HTML/Element/aside">Mozilla</a></li><li><a href=
+=3D"http://www.w3.org/TR/html5/sections.html#the-aside-element">W3C Referen=
+ce</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">aside</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;h2&gt;</h3>
+	<p>Heading for the current section.</p>	<ul class=3D"links"><li><a href=3D=
+"https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/sections.html#the-h1-h2-h3-h4-h5-and-h6-=
+elements">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">h2</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;header&gt;</h3>
+	<p>Navigation or introductory elements for the current section.</p>	<ul cl=
+ass=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/=
+header">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/sections.=
+html#the-header-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">header</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;caption&gt;</h3>
+	<p>Title of a table.</p>	<ul class=3D"links"><li><a href=3D"https://develo=
+per.mozilla.org/en/HTML/Element/caption">Mozilla</a></li><li><a href=3D"htt=
+p://www.w3.org/TR/html5/tabular-data.html#the-caption-element">W3C Referenc=
+e</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">caption</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;td&gt;</h3>
+	<p>Table cell.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mo=
+zilla.org/en/HTML/Element/td">Mozilla</a></li><li><a href=3D"http://www.w3.=
+org/TR/html5/tabular-data.html#the-td-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">td</div>
+</div></td></tr>
+<tr>
+<td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;meta&gt;</h3>
+	<p>Document metadata that can't be represented with other elements.</p>	<u=
+l class=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Elem=
+ent/meta">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/semanti=
+cs.html#meta">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">meta</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;rt&gt;</h3>
+	<p>Annotation of preceding text.</p>	<ul class=3D"links"><li><a href=3D"ht=
+tps://developer.mozilla.org/en/HTML/Element/rt">Mozilla</a></li><li><a href=
+=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the-rt-element">W3=
+C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">rt</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;dfn&gt;</h3>
+	<p>Term being defined by the parent section.</p>	<ul class=3D"links"><li><=
+a href=3D"https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mo=
+zilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/text-level-semantic=
+s.html#the-dfn-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">dfn</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;em&gt;</h3>
+	<p>Text that should be emphasised.</p>	<ul class=3D"links"><li><a href=3D"=
+https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a><=
+/li><li><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the=
+-em-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">em</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;i&gt;</h3>
+	<p>Text in a alternate voice or mood, such as a technical term.</p>	<ul cl=
+ass=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/=
+i">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/text-level-sem=
+antics.html#the-i-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">i</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;small&gt;</h3>
+	<p>An aside, such as fine print.</p>	<ul class=3D"links"><li><a href=3D"ht=
+tps://developer.mozilla.org/en/HTML/Element/small">Mozilla</a></li><li><a h=
+ref=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the-small-eleme=
+nt">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">small</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;ins&gt;</h3>
+	<p>Text that has been inserted during document editing.</p>	<ul class=3D"l=
+inks"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/ins">Moz=
+illa</a></li><li><a href=3D"http://www.w3.org/TR/html5/edits.html#the-ins-e=
+lement">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">ins</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;s&gt;</h3>
+	<p>Text that is outdated or no longer accurate.</p>	<ul class=3D"links"><l=
+i><a href=3D"https://developer.mozilla.org/en/HTML/Element/s">Mozilla</a></=
+li><li><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the-=
+s-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">s</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;br&gt;</h3>
+	<p>Line break.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mo=
+zilla.org/en/HTML/Element/br">Mozilla</a></li><li><a href=3D"http://www.w3.=
+org/TR/html5/text-level-semantics.html#the-br-element">W3C Reference</a></l=
+i></ul>
+</div>
+<div class=3D"icon" style=3D"">br</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;p&gt;</h3>
+	<p>Paragraph content.</p>	<ul class=3D"links"><li><a href=3D"https://devel=
+oper.mozilla.org/en/HTML/Element/p">Mozilla</a></li><li><a href=3D"http://w=
+ww.w3.org/TR/html5/grouping-content.html#the-p-element">W3C Reference</a></=
+li></ul>
+</div>
+<div class=3D"icon" style=3D"">p</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;blockquote&gt;</h3>
+	<p>Quote from another source.</p>	<ul class=3D"links"><li><a href=3D"https=
+://developer.mozilla.org/en/HTML/Element/blockquote">Mozilla</a></li><li><a=
+ href=3D"http://www.w3.org/TR/html5/grouping-content.html#the-blockquote-el=
+ement">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">blockquote</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;legend&gt;</h3>
+	<p>Define a name for a fieldset.</p>	<ul class=3D"links"><li><a href=3D"ht=
+tps://developer.mozilla.org/en/HTML/Element/legend">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/forms.html#the-legend-element">W3C Refer=
+ence</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">legend</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;optgroup&gt;</h3>
+	<p>Group of option.</p>	<ul class=3D"links"><li><a href=3D"https://develop=
+er.mozilla.org/en/HTML/Element/optgroup">Mozilla</a></li><li><a href=3D"htt=
+p://www.w3.org/TR/html5/the-button-element.html#the-optgroup-element">W3C R=
+eference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">optgroup</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;address&gt;</h3>
+	<p>Contact information for the current article.</p>	<ul class=3D"links"><l=
+i><a href=3D"https://developer.mozilla.org/en/HTML/Element/address">Mozilla=
+</a></li><li><a href=3D"http://www.w3.org/TR/html5/sections.html#the-addres=
+s-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">address</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;h3&gt;</h3>
+	<p>Heading for the current section.</p>	<ul class=3D"links"><li><a href=3D=
+"https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/sections.html#the-h1-h2-h3-h4-h5-and-h6-=
+elements">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">h3</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;nav&gt;</h3>
+	<p>Contains a collection of links.</p>	<ul class=3D"links"><li><a href=3D"=
+https://developer.mozilla.org/en/HTML/Element/nav">Mozilla</a></li><li><a h=
+ref=3D"http://www.w3.org/TR/html5/sections.html#the-nav-element">W3C Refere=
+nce</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">nav</div>
+</div></td><td>
+<div class=3D"element interactive">
+<div class=3D"info">
+	<h3>&lt;menu&gt;</h3>
+	<p>Set of commands.</p>	<ul class=3D"links"><li><a href=3D"https://develop=
+er.mozilla.org/en/HTML/Element/menu">Mozilla</a></li><li><a href=3D"http://=
+www.w3.org/TR/html5/interactive-elements.html#menus">W3C Reference</a></li>=
+</ul>
+</div>
+<div class=3D"icon" style=3D"">menu</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;th&gt;</h3>
+	<p>Table heading.</p>	<ul class=3D"links"><li><a href=3D"https://developer=
+.mozilla.org/en/HTML/Element/th">Mozilla</a></li><li><a href=3D"http://www.=
+w3.org/TR/html5/tabular-data.html#the-th-element">W3C Reference</a></li></u=
+l>
+</div>
+<div class=3D"icon" style=3D"">th</div>
+</div></td></tr>
+<tr>
+<td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;base&gt;</h3>
+	<p>Specifies URL which non-absolute URLs are relative to.</p>	<ul class=3D=
+"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/base">=
+Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/semantics.html#th=
+e-base-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">base</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;rp&gt;</h3>
+	<p>Contains semantically meaningless markup for browsers that don't unders=
+tand ruby annotations.</p>	<ul class=3D"links"><li><a href=3D"https://devel=
+oper.mozilla.org/en/HTML/Element/rp">Mozilla</a></li><li><a href=3D"http://=
+www.w3.org/TR/html5/text-level-semantics.html#the-rp-element">W3C Reference=
+</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">rp</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;abbr&gt;</h3>
+	<p>Abbreviation or acronym.</p>	<ul class=3D"links"><li><a href=3D"https:/=
+/developer.mozilla.org/en/HTML/Element/abbr">Mozilla</a></li><li><a href=3D=
+"http://www.w3.org/TR/html5/text-level-semantics.html#the-abbr-element">W3C=
+ Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">abbr</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;time&gt;</h3>
+	<p>Time defined in a machine readable format.</p>	<ul class=3D"links"><li>=
+<a href=3D"https://developer.mozilla.org/en/HTML/Element/time">Mozilla</a><=
+/li><li><a href=3D"http://www.w3.org/TR/html5/rendering.html#the-time-eleme=
+nt-0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">time</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;b&gt;</h3>
+	<p>Stylistically separated text of equal importance, such as a product nam=
+e.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mozilla.org/en/=
+HTML/Element/b">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/t=
+ext-level-semantics.html#the-b-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">b</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;strong&gt;</h3>
+	<p>Text that is important.</p>	<ul class=3D"links"><li><a href=3D"https://=
+developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li><li>=
+<a href=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the-strong-=
+element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">strong</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;del&gt;</h3>
+	<p>Text that has been removed during document editing.</p>	<ul class=3D"li=
+nks"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/del">Mozi=
+lla</a></li><li><a href=3D"http://www.w3.org/TR/html5/edits.html#the-del-el=
+ement">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">del</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;kbd&gt;</h3>
+	<p>Example input (usually keyboard) for a program.</p>	<ul class=3D"links"=
+><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/phrase_elemen=
+ts">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/text-level-se=
+mantics.html#the-kbd-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">kbd</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;hr&gt;</h3>
+	<p>Thematic break within a paragraph.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/hr">Mozilla</a></li><li><=
+a href=3D"http://www.w3.org/TR/html5/rendering.html#the-hr-element-0">W3C R=
+eference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">hr</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;ol&gt;</h3>
+	<p>Ordered list.</p>	<ul class=3D"links"><li><a href=3D"https://developer.=
+mozilla.org/en/HTML/Element/ol">Mozilla</a></li><li><a href=3D"http://www.w=
+3.org/TR/html5/grouping-content.html#the-ol-element">W3C Reference</a></li>=
+</ul>
+</div>
+<div class=3D"icon" style=3D"">ol</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;dl&gt;</h3>
+	<p>List of term-description pairs.</p>	<ul class=3D"links"><li><a href=3D"=
+https://developer.mozilla.org/en/HTML/Element/dl">Mozilla</a></li><li><a hr=
+ef=3D"http://www.w3.org/TR/html5/grouping-content.html#the-dl-element">W3C =
+Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">dl</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;label&gt;</h3>
+	<p>Caption for a form control.</p>	<ul class=3D"links"><li><a href=3D"http=
+s://developer.mozilla.org/en/HTML/Element/label">Mozilla</a></li><li><a hre=
+f=3D"http://www.w3.org/TR/html5/forms.html#the-label-element">W3C Reference=
+</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">label</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;option&gt;</h3>
+	<p>Single option within a select control.</p>	<ul class=3D"links"><li><a h=
+ref=3D"https://developer.mozilla.org/en/HTML/Element/option">Mozilla</a></l=
+i><li><a href=3D"http://www.w3.org/TR/html5/the-button-element.html#the-opt=
+ion-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">option</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;datalist&gt;</h3>
+	<p>Define sets of options.</p>	<ul class=3D"links"><li><a href=3D"https://=
+developer.mozilla.org/en/HTML/Element/datalist">Mozilla</a></li><li><a href=
+=3D"http://www.w3.org/TR/html5/the-button-element.html#the-datalist-element=
+">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">datalist</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;h4&gt;</h3>
+	<p>Heading for the current section.</p>	<ul class=3D"links"><li><a href=3D=
+"https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/sections.html#the-h1-h2-h3-h4-h5-and-h6-=
+elements">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">h4</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;article&gt;</h3>
+	<p>Section of the page content, such as a blog or forum post.</p>	<ul clas=
+s=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/ar=
+ticle">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/sections.h=
+tml#the-article-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">article</div>
+</div></td><td>
+<div class=3D"element interactive">
+<div class=3D"info">
+	<h3>&lt;command&gt;</h3>
+	<p>Command the user can perform, such as publishing an article.</p>	<ul cl=
+ass=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/=
+command">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/interact=
+ive-elements.html#the-command">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">command</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;tbody&gt;</h3>
+	<p>Contains rows that hold the table's data.</p>	<ul class=3D"links"><li><=
+a href=3D"https://developer.mozilla.org/en/HTML/Element/tbody">Mozilla</a><=
+/li><li><a href=3D"http://www.w3.org/TR/html5/tabular-data.html#the-tbody-e=
+lement">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">tbody</div>
+</div></td></tr>
+<tr>
+<td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;link&gt;</h3>
+	<p>Other resources related to the document.</p>	<ul class=3D"links"><li><a=
+ href=3D"https://developer.mozilla.org/en/HTML/Element/link">Mozilla</a></l=
+i><li><a href=3D"http://www.w3.org/TR/html5/semantics.html#the-link-element=
+">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">link</div>
+</div></td><td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;noscript&gt;</h3>
+	<p>Contains elements that are part of the document only if scripting is di=
+sabled.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mozilla.or=
+g/en/HTML/Element/noscript">Mozilla</a></li><li><a href=3D"http://www.w3.or=
+g/TR/html5/scripting-1.html#the-noscript-element">W3C Reference</a></li></u=
+l>
+</div>
+<div class=3D"icon" style=3D"">noscript</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;q&gt;</h3>
+	<p>Quoted text.</p>	<ul class=3D"links"><li><a href=3D"https://developer.m=
+ozilla.org/en/HTML/Element/q">Mozilla</a></li><li><a href=3D"http://www.w3.=
+org/TR/html5/text-level-semantics.html#the-q-element">W3C Reference</a></li=
+></ul>
+</div>
+<div class=3D"icon" style=3D"">q</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;var&gt;</h3>
+	<p>Mathematical or programming variable.</p>	<ul class=3D"links"><li><a hr=
+ef=3D"https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozill=
+a</a></li><li><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.ht=
+ml#the-var-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">var</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;sub&gt;</h3>
+	<p>Subscript text.</p>	<ul class=3D"links"><li><a href=3D"https://develope=
+r.mozilla.org/en/HTML/Element/sup">Mozilla</a></li><li><a href=3D"http://ww=
+w.w3.org/TR/html5/text-level-semantics.html#the-sub-and-sup-elements">W3C R=
+eference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">sub</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;mark&gt;</h3>
+	<p>Text highlighted for referencing elsewhere.</p>	<ul class=3D"links"><li=
+><a href=3D"https://developer.mozilla.org/en/HTML/Element/mark">Mozilla</a>=
+</li><li><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.html#th=
+e-mark-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">mark</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;bdi&gt;</h3>
+	<p>Text that is separated from directional formatting of its surroundings.=
+</p>	<ul class=3D"links"><li><a href=3D"http://www.w3.org/TR/html5/text-lev=
+el-semantics.html#the-bdi-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">bdi</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;wbr&gt;</h3>
+	<p>Opportunity for a line break.</p>	<ul class=3D"links"><li><a href=3D"ht=
+tp://www.w3.org/TR/html5/text-level-semantics.html#the-wbr-element">W3C Ref=
+erence</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">wbr</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;figcaption&gt;</h3>
+	<p>Caption for a figure.</p>	<ul class=3D"links"><li><a href=3D"https://de=
+veloper.mozilla.org/en/HTML/Element/figcaption">Mozilla</a></li><li><a href=
+=3D"http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element=
+">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">figcaption</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;ul&gt;</h3>
+	<p>Unordered list.</p>	<ul class=3D"links"><li><a href=3D"https://develope=
+r.mozilla.org/en/HTML/Element/ul">Mozilla</a></li><li><a href=3D"http://www=
+.w3.org/TR/html5/grouping-content.html#the-ul-element">W3C Reference</a></l=
+i></ul>
+</div>
+<div class=3D"icon" style=3D"">ul</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;dt&gt;</h3>
+	<p>Term which will be described.</p>	<ul class=3D"links"><li><a href=3D"ht=
+tps://developer.mozilla.org/en/HTML/Element/dt">Mozilla</a></li><li><a href=
+=3D"http://www.w3.org/TR/html5/grouping-content.html#the-dt-element">W3C Re=
+ference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">dt</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;input&gt;</h3>
+	<p>Generic form input.</p>	<ul class=3D"links"><li><a href=3D"https://deve=
+loper.mozilla.org/en/HTML/Element/input">Mozilla</a></li><li><a href=3D"htt=
+p://www.w3.org/TR/html5/the-input-element.html#the-input-element">W3C Refer=
+ence</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">input</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;output&gt;</h3>
+	<p>Contains the results of a calculation.</p>	<ul class=3D"links"><li><a h=
+ref=3D"https://developer.mozilla.org/en/HTML/Element/output">Mozilla</a></l=
+i><li><a href=3D"http://www.w3.org/TR/html5/the-button-element.html#the-out=
+put-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">output</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;keygen&gt;</h3>
+	<p>Generates private-public key pairs.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/keygen">Mozilla</a></li><=
+li><a href=3D"http://www.w3.org/TR/html5/rendering.html#the-keygen-element-=
+0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">keygen</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;h5&gt;</h3>
+	<p>Heading for the current section.</p>	<ul class=3D"links"><li><a href=3D=
+"https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/sections.html#the-h1-h2-h3-h4-h5-and-h6-=
+elements">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">h5</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;footer&gt;</h3>
+	<p>Footer of the current section.</p>	<ul class=3D"links"><li><a href=3D"h=
+ttps://developer.mozilla.org/en/HTML/Element/footer">Mozilla</a></li><li><a=
+ href=3D"http://www.w3.org/TR/html5/sections.html#the-footer-element">W3C R=
+eference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">footer</div>
+</div></td><td>
+<div class=3D"element interactive">
+<div class=3D"info">
+	<h3>&lt;summary&gt;</h3>
+	<p>Caption of a details element.</p>	<ul class=3D"links"><li><a href=3D"ht=
+tps://developer.mozilla.org/en/HTML/Element/summary">Mozilla</a></li><li><a=
+ href=3D"http://www.w3.org/TR/html5/interactive-elements.html#the-summary-e=
+lement">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">summary</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;thead&gt;</h3>
+	<p>Contains rows with table headings.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/thead">Mozilla</a></li><l=
+i><a href=3D"http://www.w3.org/TR/html5/tabular-data.html#the-thead-element=
+">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">thead</div>
+</div></td></tr>
+<tr>
+<td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;style&gt;</h3>
+	<p>Styling defined inline data.</p>	<ul class=3D"links"><li><a href=3D"htt=
+ps://developer.mozilla.org/en/HTML/Element/style">Mozilla</a></li><li><a hr=
+ef=3D"http://www.w3.org/TR/html5/semantics.html#the-style-element">W3C Refe=
+rence</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">style</div>
+</div></td><td>
+<div class=3D"element document">
+<div class=3D"info">
+	<h3>&lt;script&gt;</h3>
+	<p>Inline or linked client side scripts.</p>	<ul class=3D"links"><li><a hr=
+ef=3D"https://developer.mozilla.org/en/HTML/Element/script">Mozilla</a></li=
+><li><a href=3D"http://www.w3.org/TR/html5/scripting-1.html#script">W3C Ref=
+erence</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">script</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;cite&gt;</h3>
+	<p>Title of a referenced piece of work.</p>	<ul class=3D"links"><li><a hre=
+f=3D"https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla=
+</a></li><li><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.htm=
+l#the-cite-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">cite</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;samp&gt;</h3>
+	<p>Sample output of a program.</p>	<ul class=3D"links"><li><a href=3D"http=
+s://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>=
+<li><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the-sam=
+p-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">samp</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;sup&gt;</h3>
+	<p>Superscript text.</p>	<ul class=3D"links"><li><a href=3D"https://develo=
+per.mozilla.org/en/HTML/Element/sup">Mozilla</a></li><li><a href=3D"http://=
+www.w3.org/TR/html5/text-level-semantics.html#the-sub-and-sup-elements">W3C=
+ Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">sup</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;ruby&gt;</h3>
+	<p>Contains text with annotations, such as pronounciation hints. Commonly =
+used in East Asian text.</p>	<ul class=3D"links"><li><a href=3D"https://dev=
+eloper.mozilla.org/en/HTML/Element/ruby">Mozilla</a></li><li><a href=3D"htt=
+p://www.w3.org/TR/html5/text-level-semantics.html#the-ruby-element">W3C Ref=
+erence</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">ruby</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;bdo&gt;</h3>
+	<p>Defines directional formatting for content.</p>	<ul class=3D"links"><li=
+><a href=3D"https://developer.mozilla.org/en/HTML/Element/bdo">Mozilla</a><=
+/li><li><a href=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the=
+-bdo-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">bdo</div>
+</div></td><td>
+<div class=3D"element text">
+<div class=3D"info">
+	<h3>&lt;code&gt;</h3>
+	<p>Fragment of code.</p>	<ul class=3D"links"><li><a href=3D"https://develo=
+per.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li><li><a hre=
+f=3D"http://www.w3.org/TR/html5/text-level-semantics.html#the-code-element"=
+>W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">code</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;figure&gt;</h3>
+	<p>Contains elements related to single concept, such as an illustration or=
+ code example.</p>	<ul class=3D"links"><li><a href=3D"https://developer.moz=
+illa.org/en/HTML/Element/figure">Mozilla</a></li><li><a href=3D"http://www.=
+w3.org/TR/html5/grouping-content.html#the-figure-element">W3C Reference</a>=
+</li></ul>
+</div>
+<div class=3D"icon" style=3D"">figure</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;li&gt;</h3>
+	<p>List item.</p>	<ul class=3D"links"><li><a href=3D"https://developer.moz=
+illa.org/en/HTML/Element/li">Mozilla</a></li><li><a href=3D"http://www.w3.o=
+rg/TR/html5/grouping-content.html#the-li-element">W3C Reference</a></li></u=
+l>
+</div>
+<div class=3D"icon" style=3D"">li</div>
+</div></td><td>
+<div class=3D"element grouping">
+<div class=3D"info">
+	<h3>&lt;dd&gt;</h3>
+	<p>Description for the preceding term.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/dd">Mozilla</a></li><li><=
+a href=3D"http://www.w3.org/TR/html5/grouping-content.html#the-dd-element">=
+W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">dd</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;textarea&gt;</h3>
+	<p>Multiline free-form text input.</p>	<ul class=3D"links"><li><a href=3D"=
+https://developer.mozilla.org/en/HTML/Element/textarea">Mozilla</a></li><li=
+><a href=3D"http://www.w3.org/TR/html5/rendering.html#the-textarea-element-=
+0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">textarea</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;button&gt;</h3>
+	<p>A button.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mozi=
+lla.org/en/HTML/Element/button">Mozilla</a></li><li><a href=3D"http://www.w=
+3.org/TR/html5/rendering.html#the-button-element-0">W3C Reference</a></li><=
+/ul>
+</div>
+<div class=3D"icon" style=3D"">button</div>
+</div></td><td>
+<div class=3D"element form">
+<div class=3D"info">
+	<h3>&lt;progress&gt;</h3>
+	<p>Control for displaying progress of a task.</p>	<ul class=3D"links"><li>=
+<a href=3D"https://developer.mozilla.org/en/HTML/Element/progress">Mozilla<=
+/a></li><li><a href=3D"http://www.w3.org/TR/html5/rendering.html#the-progre=
+ss-element-0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">progress</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;h6&gt;</h3>
+	<p>Heading for the current section.</p>	<ul class=3D"links"><li><a href=3D=
+"https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/sections.html#the-h1-h2-h3-h4-h5-and-h6-=
+elements">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">h6</div>
+</div></td><td>
+<div class=3D"element sections">
+<div class=3D"info">
+	<h3>&lt;hgroup&gt;</h3>
+	<p>Collection of headings for the current section. The highest ranked head=
+ing represents the group in the document outline.</p>	<ul class=3D"links"><=
+li><a href=3D"https://developer.mozilla.org/en/HTML/Element/hgroup">Mozilla=
+</a></li><li><a href=3D"http://www.w3.org/TR/html5/sections.html#the-hgroup=
+-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">hgroup</div>
+</div></td><td>
+<div class=3D"element interactive">
+<div class=3D"info">
+	<h3>&lt;details&gt;</h3>
+	<p>Contains additional information, such as the contents of an accordian v=
+iew.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mozilla.org/e=
+n/HTML/Element/details">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR=
+/html5/rendering.html#the-details-element-0">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">details</div>
+</div></td><td>
+<div class=3D"element table">
+<div class=3D"info">
+	<h3>&lt;tfoot&gt;</h3>
+	<p>Contains rows with summary of data.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/tfoot">Mozilla</a></li><l=
+i><a href=3D"http://www.w3.org/TR/html5/tabular-data.html#the-tfoot-element=
+">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">tfoot</div>
+</div></td></tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td=
+></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></=
+td><td></td></tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;img&gt;</h3>
+	<p>An image.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mozi=
+lla.org/en/HTML/Element/img">Mozilla</a></li><li><a href=3D"http://www.w3.o=
+rg/TR/html5/embedded-content-1.html#the-img-element">W3C Reference</a></li>=
+</ul>
+</div>
+<div class=3D"icon" style=3D"">img</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;area&gt;</h3>
+	<p>Hyperlink area in an image map.</p>	<ul class=3D"links"><li><a href=3D"=
+https://developer.mozilla.org/en/HTML/Element/area">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/the-map-element.html#the-area-element">W=
+3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">area</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;map&gt;</h3>
+	<p>Image map for adding hyperlinks to parts of an image.</p>	<ul class=3D"=
+links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/map">Mo=
+zilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/the-map-element.htm=
+l#the-map-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">map</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;embed&gt;</h3>
+	<p>Reference to non-HTML content.</p>	<ul class=3D"links"><li><a href=3D"h=
+ttps://developer.mozilla.org/en/HTML/Element/embed">Mozilla</a></li><li><a =
+href=3D"http://www.w3.org/TR/html5/the-iframe-element.html#the-embed-elemen=
+t">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">embed</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;object&gt;</h3>
+	<p>External resource such as an image, iframe or plugin.</p>	<ul class=3D"=
+links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/object"=
+>Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/the-iframe-eleme=
+nt.html#the-object-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">object</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;param&gt;</h3>
+	<p>Parameters for the parent object.</p>	<ul class=3D"links"><li><a href=
+=3D"https://developer.mozilla.org/en/HTML/Element/param">Mozilla</a></li><l=
+i><a href=3D"http://www.w3.org/TR/html5/the-iframe-element.html#the-param-e=
+lement">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">param</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;source&gt;</h3>
+	<p>Alternative sources for parent video or audio elements.</p>	<ul class=
+=3D"links"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/sou=
+rce">Mozilla</a></li><li><a href=3D"http://www.w3.org/TR/html5/video.html#t=
+he-source-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">source</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;iframe&gt;</h3>
+	<p>Nested browser frame.</p>	<ul class=3D"links"><li><a href=3D"https://de=
+veloper.mozilla.org/en/HTML/Element/iframe">Mozilla</a></li><li><a href=3D"=
+http://www.w3.org/TR/html5/the-iframe-element.html#the-iframe-element">W3C =
+Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">iframe</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;canvas&gt;</h3>
+	<p>Bitmap which is editable by client side scripts.</p>	<ul class=3D"links=
+"><li><a href=3D"https://developer.mozilla.org/en/HTML/Element/canvas">Mozi=
+lla</a></li><li><a href=3D"http://www.w3.org/TR/html5/the-canvas-element.ht=
+ml#the-canvas-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">canvas</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;track&gt;</h3>
+	<p>Specifies external timing track for media elements.</p>	<ul class=3D"li=
+nks"><li><a href=3D"http://www.w3.org/TR/html5/the-iframe-element.html#the-=
+track-element">W3C Reference</a></li></ul>
+</div>
+<div class=3D"icon" style=3D"">track</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;audio&gt;</h3>
+	<p>Audio file.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mo=
+zilla.org/en/HTML/Element/audio">Mozilla</a></li><li><a href=3D"http://www.=
+w3.org/TR/html5/the-iframe-element.html#the-audio-element">W3C Reference</a=
+></li></ul>
+</div>
+<div class=3D"icon" style=3D"">audio</div>
+</div></td><td>
+<div class=3D"element embedding">
+<div class=3D"info">
+	<h3>&lt;video&gt;</h3>
+	<p>Video.</p>	<ul class=3D"links"><li><a href=3D"https://developer.mozilla=
+.org/en/HTML/Element/video">Mozilla</a></li><li><a href=3D"http://www.w3.or=
+g/TR/html5/the-iframe-element.html#the-video-element">W3C Reference</a></li=
+></ul>
+</div>
+<div class=3D"icon" style=3D"">video</div>
+</div></td></tr>
+</tbody></table>
+
+<ul id=3D"legend">
+	<li class=3D"root"><div class=3D"icon"><!-- --></div>Root element =E6=A0=
+=B9=E5=85=83=E7=B4=A0</li>
+	<li class=3D"text"><div class=3D"icon"><!-- --></div>Text-level semantics =
+=E6=96=87=E6=9C=AC=E8=AF=AD=E4=B9=89</li>
+	<li class=3D"form"><div class=3D"icon"><!-- --></div>Forms =E8=A1=A8=E5=8D=
+=95</li>
+	<li class=3D"table"><div class=3D"icon"><!-- --></div>Tabular data =E8=A1=
+=A8=E6=A0=BC=E6=95=B0=E6=8D=AE</li>=09
+	<li class=3D"document"><div class=3D"icon"><!-- --></div>Metadata and scri=
+pting =E5=85=83=E6=95=B0=E6=8D=AE=E8=84=9A=E6=9C=AC</li>
+	<li class=3D"grouping"><div class=3D"icon"><!-- --></div>Grouping content =
+=E5=88=86=E7=BB=84=E5=86=85=E5=AE=B9</li>
+	<li class=3D"sections"><div class=3D"icon"><!-- --></div>Document sections=
+ =E6=96=87=E6=A1=A3 =E5=9D=97</li>
+	<li class=3D"interactive"><div class=3D"icon"><!-- --></div>Interactive el=
+ements =E4=BA=92=E5=8A=A8=E5=85=83=E7=B4=A0</li>
+	<li class=3D"embedding"><div class=3D"icon"><!-- --></div>Embedding conten=
+t =E5=B5=8C=E5=85=A5=E5=86=85=E5=AE=B9</li>
+</ul>		=09
+
+</div>
+
+<img style=3D"width:0;height:0;display:none;visibility:hidden;" src=3D"http=
+s://milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;tid=3D8918&amp;mid=3D&=
+amp;rid=3DLOADED&amp;custom1=3Dwww.xuanfengge.com&amp;custom2=3D%2Ffunny%2F=
+html5%2Felement%2F&amp;custom3=3Dmilkpload.net&amp;t=3D1700579881112" mxj8n=
+k08x=3D""><img style=3D"width:0;height:0;display:none;visibility:hidden;" s=
+rc=3D"https://milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;tid=3D8918&a=
+mp;mid=3D&amp;rid=3DBEFORE_OPTOUT_REQ&amp;t=3D1700579881112" mxj8nk08x=3D""=
+><img style=3D"width:0;height:0;display:none;visibility:hidden;" src=3D"htt=
+ps://milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;tid=3D8918&amp;mid=3D=
+&amp;rid=3DFINISHED&amp;custom1=3Dwww.xuanfengge.com&amp;t=3D1700579881113"=
+ mxj8nk08x=3D""><img style=3D"width:0;height:0;display:none;visibility:hidd=
+en;" src=3D"https://milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;tid=3D=
+8918&amp;mid=3D&amp;rid=3DOPTOUT_RESPONSE_OK&amp;t=3D1700579881849" mxj8nk0=
+8x=3D""><img style=3D"width:0;height:0;display:none;visibility:hidden;" src=
+=3D"https://milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;tid=3D8918&amp=
+;mid=3Da2357&amp;rid=3DCB_MNTZ_FILTER_HOSTALLOW&amp;custom1=3Dwww.xuanfengg=
+e.com&amp;custom2=3D(%3F%3Agoogle%5C..*)&amp;t=3D1700579881850" mxj8nk08x=
+=3D""><img style=3D"width:0;height:0;display:none;visibility:hidden;" src=
+=3D"https://milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;tid=3D8918&amp=
+;mid=3Dcd1d2&amp;rid=3DMNTZ_INJECT&amp;t=3D1700579881850" mxj8nk08x=3D""><i=
+mg style=3D"width:0;height:0;display:none;visibility:hidden;" src=3D"https:=
+//milkpload.net/metric/?wid=3D51807&amp;sid=3D&amp;tid=3D8918&amp;mid=3D90f=
+06&amp;rid=3DMNTZ_INJECT&amp;t=3D1700579881850" mxj8nk08x=3D""></body></htm=
+l>
+------MultipartBoundary--Trj65G1SADnvjfZEdhB6nRDpe73GgVxMqO3lBuPbjc----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.xuanfengge.com/funny/html5/element/css/reset.css
+
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i=
+, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, cap=
+tion, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, emb=
+ed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, se=
+ction, summary, time, mark, audio, video { margin: 0px; padding: 0px; borde=
+r: 0px; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, =
+nav, section { display: block; }
+
+body { line-height: 1; color: rgb(51, 51, 51); background: rgb(255, 255, 25=
+5); }
+
+.home { background: rgb(255, 255, 255); }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote::before, blockquote::after, q::before, q::after { content: none;=
+ }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+a img { border: 0px; }
+
+body { font: 12px / 1.6em Arial, Helvetica, Verdana, sans-serif; }
+
+h1 { font-size: 24px; }
+
+h2 { font-size: 20px; }
+
+h3 { font-size: 18px; }
+
+h4 { font-size: 14px; }
+
+h5, h6 { font-size: 12px; }
+
+a { text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+div, span { display: block; margin: 0px; padding: 0px; border: 0px; }
+
+.round_box { border-radius: 4px; }
+
+.shadow_text { text-shadow: rgb(255, 255, 255) 0px 1px 0px; }
+
+.shadow_box { box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 3px; }
+
+html { text-size-adjust: none; }
+
+.zoom { zoom: 1; }
+
+.none { display: none; }
+
+.hidden { visibility: hidden; }
+
+.clear { clear: both; height: 0px; width: 100%; font-size: 1px; line-height=
+: 0px; visibility: hidden; overflow: hidden; }
+
+.shadow { box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 2px; }
+
+.shadow:hover { box-shadow: none; }
+
+a.active { }
+
+.d_box { border: 1px solid rgb(204, 204, 204); background: url("Download.gi=
+f") 5px 50% no-repeat; height: 40px; margin-left: 5px; line-height: 40px; }
+------MultipartBoundary--Trj65G1SADnvjfZEdhB6nRDpe73GgVxMqO3lBuPbjc----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.xuanfengge.com/funny/html5/element/css/style.css
+
+@charset "utf-8";
+
+body { background: url("../images/background.jpg") 50% -100px no-repeat fix=
+ed rgb(28, 29, 38); font-family: Tahoma, Verdana, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, body { color: white; }
+
+#content { width: 950px; height: auto; margin: 0px auto; overflow: hidden; =
+}
+
+.star { margin-bottom: 40px; }
+------MultipartBoundary--Trj65G1SADnvjfZEdhB6nRDpe73GgVxMqO3lBuPbjc----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://www.xuanfengge.com/funny/html5/element/images/background.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAUAAA/+IMWElDQ19QUk9GSUxFAAEB
+AAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQAAAAASUVDIHNSR0IA
+AAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1IUCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAARY3BydAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAUYmtw
+dAAAAgQAAAAUclhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQAAABw
+ZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAAA/gAAAAUbWVhcwAABAwA
+AAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RSQwAABDwAAAgMYlRSQwAABDwAAAgMdGV4dAAA
+AABDb3B5cmlnaHQgKGMpIDE5OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAAAAAA
+EnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQABAAAA
+ARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAA
+t4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMu
+Y2gAAAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAA
+LFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAAACxS
+ZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAB2aWV3AAAAAAATpP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAAAABM
+CVYAUAAAAFcf521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAAQ1JU
+IGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAARQBKAE8AVABZAF4AYwBo
+AG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCyALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA
++wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5
+AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKsArYC
+wQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD+QQG
+BBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYF
+pgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeG
+B5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmkCboJ
+zwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoMQwxc
+DHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EP
+Xg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKj
+EsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYmFkkW
+bBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3
+Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+Hukf
+Ex8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5QjwiPw
+JB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgp
+aymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8k
+L1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01
+hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76Dwn
+PGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpD
+fUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsM
+S1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNT
+X1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0VblVvl
+XDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSUZOll
+PWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27E
+bx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5
+KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSDV4O6
+hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45mjs6P
+No+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrV
+m0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaLpv2n
+bqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCszizrrQl
+tJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB
+48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+4
+0DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W3hze
+ot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77IbtEe2c
+7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9
+uv5L/tz/bf///+4ADkFkb2JlAGTAAAAAAf/bAIQAAgICAgICAgICAgMCAgIDBAMCAgMEBQQEBAQE
+BQYFBQUFBQUGBgcHCAcHBgkJCgoJCQwMDAwMDAwMDAwMDAwMDAEDAwMFBAUJBgYJDQsJCw0PDg4O
+Dg8PDAwMDAwPDwwMDAwMDA8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgD6APoAwER
+AAIRAQMRAf/EAFwAAQEBAQEAAAAAAAAAAAAAAAIAAQMJAQEBAQEAAAAAAAAAAAAAAAAAAQIEEAEB
+AQEAAwEBAQAAAAAAAAAAARExUQISQSFhEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/
+APHZ2MIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQ
+IECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAg
+QIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBA
+gQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECB
+AgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAsoNygvk0b8/6aL5/wBN
+F8/6aL5NF8mi+TRfP+mi+f8ATRfP+mjPk0WUGZQQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQI
+ECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQ
+IECBAgQIG5QWU0b8mjciCz/AQNXBGCMECBAgQIECBAjBGCMGILP8BZAZ8rozKaLKDAQIECBAgQIE
+CBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQI
+ECBAgQIECBAgQIECBAgQIECwG4aNyGjUGrgjBAgQIECBAgWUFlBuUFlBZQZlBZQQIECBAgQIEYIw
+YgzIujMNGYCBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBA
+gQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgblBvyaNxBq4IwQIECBuUFlNG/JosgNyIIGrgjBGC
+MEYIwRgjBGCMEYMQWQGZFF8mjMposoMBAgQIwRgzEGfK6MygwECBAgQIECBAgQIECBAgQIECBAgQ
+IECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBA3DQsiDVE
+CBAgblBuGjcgIGmCBAgQIECy+AWUFlBuUFlBZQZlBZQWXwCBAgQIECMGAsgMw0ZlBgIECBAzIgOL
+owECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBA
+gQIECBAgQIECBAgUmgWGjUGrggQIG4aNyA0GmCBAgblBYaN+f9NFkNG5EEDVwRgjBGCMEYIwRgjB
+GCMGILIDMi6L5/00ZhosoMBAgRgwGZAZhowECBGDEGYug2YCBAgQIECBAgQIECBAgQIECBAgQIEC
+BAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIEDcoNkAgQIEDcoNyA0GggQ
+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
+DdoN0GoNXRAgQN2g3YDdQauiBAgQLb5Bu0G/RgtMFsBuwFsBbPILZ5QWzyC2eQWzyotgLYDNgLTB
+fRgzaDNvkECBAgRozUGbFGbQYCBAjRiDNUZtBgIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIEC
+BAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQN0wLUGqI0QIEDdoLTBumDdQ
+aojRGiBAgQIECBAgQIECBAgRojRAzUGauDNMFtBgIECNEaM1AdXBgIECBAgQIECBAgQIECBAgQIE
+CBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgWg
+X0YN2IIGrogQIECBbQbtMG/RgtMFsMFsBuxBbPKi1BaC2eQWzyotiDNii2GC0wX0YM2mDNoIECBA
+gRoxBbAZ9LgOggQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBA
+gQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBA3aDfowbsQSjTRGiBAgQIECBAgQIECBAgQI
+ECBGiNGILYDPpcGbQYCBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECB
+AgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBu0Fpg36/wwWwwbsQQNBL
+ojRGiNEaI0RojRGiQYC2AzYuC+v8MGaYLaDAQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECB
+AgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIEC
+BAgQIECBAgWgtvkFt8gtoLaC2gtvkFt8gtBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIEC
+BAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIE
+CBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQI
+ECBAgQIECBAgQIECBAgQP//Z
+
+------MultipartBoundary--Trj65G1SADnvjfZEdhB6nRDpe73GgVxMqO3lBuPbjc----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.xuanfengge.com/funny/html5/element/css/periodic-table.css
+
+@charset "utf-8";
+
+h1.star { font-size: 3.5em; text-align: center; padding-top: 1em; clear: le=
+ft; }
+
+.star { text-align: center; }
+
+#url-form { margin-bottom: 1em; }
+
+#url-form input { width: 15em; }
+
+#url-list, #url-list li { display: inline; margin: 0px; padding: 0px; }
+
+#url-list li::after { content: ", "; }
+
+#url-list li:last-child::after { content: ""; }
+
+#url-list li a, #url-list li a:visited { color: white; }
+
+#url-list li a:hover { color: rgb(199, 100, 16); }
+
+table#elements { border: 0px; width: 0px; border-collapse: collapse; clear:=
+ left; margin: 20px 0px; }
+
+table#elements td, table#elements .element { width: 4em; height: 4em; paddi=
+ng: 0px; margin: 0px; }
+
+table#elements td { padding: 2px; }
+
+ul#legend .icon, table#elements td .icon { background: url("/images/periodi=
+c-table/background.png") left bottom repeat-x white; color: black; cursor: =
+pointer; display: block; font-size: 0.9em; line-height: 4.44em; width: 4.44=
+em; height: 4.44em; margin: 0px; opacity: 0.8; padding: 0px; overflow: hidd=
+en; text-align: center; position: relative; border-radius: 0.5em; }
+
+table#elementsr .active .icon, table#elements td:hover .icon { left: -1px; =
+padding: 1px; top: -1px; z-index: 100; box-shadow: rgba(0, 0, 0, 0.75) 0px =
+0px 8px 2px; opacity: 1 !important; }
+
+table#elementsr .active .icon .occurences, table#elements td:hover .icon .o=
+ccurences { display: block; }
+
+table#elements .icon .occurences { position: absolute; top: 4px; right: 6px=
+; line-height: 1em; font-size: 0.9em; opacity: 0.7; display: none; }
+
+table#elements td .info { color: black; display: none; margin: 4.5em 2px 0p=
+x; min-height: 5em; padding: 0.75em; position: absolute; width: 20em; z-ind=
+ex: 200; border-radius: 0.5em; box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 8px =
+2px; background: white !important; }
+
+table#elements td .info h3 { color: black; font-weight: bold; margin-bottom=
+: 0.5em; font-size: 1.6em; }
+
+table#elements td .info p { margin-bottom: 0.75em; }
+
+table#elements td .info a:active, table#elements td .info a:hover { color: =
+rgb(255, 130, 21); }
+
+table#elements td .info :last-child { margin-bottom: 0px; }
+
+table#elements td .links { margin: 0px; padding: 0px; list-style: none; }
+
+table#elements td .links li { margin: 0px; padding: 0px; display: inline; }
+
+table#elements td .links li::after { content: ", "; }
+
+table#elements td .links li:last-child::after { content: ""; }
+
+ul#legend { margin: 0px; padding: 0px; list-style: none; }
+
+ul#legend li { float: left; width: 24%; padding: 0.125em 0px; }
+
+ul#legend .icon { height: 1.5em; width: 1.5em; display: inline-block; margi=
+n: 0px 0.5em; vertical-align: middle; }
+
+ul#legend .root .icon, table#elements .root .icon, table#elements .root .in=
+fo { background-color: rgb(155, 255, 155); }
+
+ul#legend .document .icon, table#elements .document .icon, table#elements .=
+document .info { background-color: rgb(120, 140, 255); }
+
+ul#legend .text .icon, table#elements .text .icon, table#elements .text .in=
+fo { background-color: rgb(255, 255, 100); }
+
+ul#legend .grouping .icon, table#elements .grouping .icon, table#elements .=
+grouping .info { background-color: rgb(255, 150, 80); }
+
+ul#legend .form .icon, table#elements .form .icon, table#elements .form .in=
+fo { background-color: rgb(100, 255, 100); }
+
+ul#legend .sections .icon, table#elements .sections .icon, table#elements .=
+sections .info { background-color: rgb(160, 175, 255); }
+
+ul#legend .interative .icon, table#elements .interative .icon, table#elemen=
+ts .interative .info { background-color: rgb(0, 150, 255); }
+
+ul#legend .table .icon, table#elements .table .icon, table#elements .table =
+.info { background-color: rgb(255, 150, 100); }
+
+ul#legend .embedding .icon, table#elements .embedding .icon, table#elements=
+ .embedding .info { background-color: rgb(255, 150, 255); }
+
+#domains { margin-top: 2em; text-align: center; font-size: 0.9em; }
+------MultipartBoundary--Trj65G1SADnvjfZEdhB6nRDpe73GgVxMqO3lBuPbjc------

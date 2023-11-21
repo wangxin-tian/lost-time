@@ -1,0 +1,16 @@
+# javascript-返回顶部
+
+```html
+  .backtotop {
+    绝对定位，点击效果
+  }
+
+  <a href="javascript:;" class="backtotop">
+    返回<br>顶部
+  </a>
+
+  js: 定时器处理 document.documentElement.scrollTop 
+
+  other: 监听页面滚动 window.onscroll 中监听 document.documentElement.scrollTop 然后对标签进行隐藏
+
+```

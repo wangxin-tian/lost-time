@@ -45,7 +45,7 @@
 - hooks测试 **[react-hooks-testing-library]()**
 <!-- - name **[]()** -->
 
-![react常用工具库](./Cip5yGAY60GAP1egAAJaMhvwhrw934.png)
+![react常用工具库](./asses/Cip5yGAY60GAP1egAAJaMhvwhrw934.png)
 
 **参考：**
 [常用的20模块](https://blog.csdn.net/fegus/article/details/126812695?ops_request_misc=&request_id=&biz_id=102&utm_term=react%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7%E5%8C%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-2-126812695.nonecase&spm=1018.2226.3001.4187#答题)

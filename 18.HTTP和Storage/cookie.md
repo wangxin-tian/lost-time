@@ -5,7 +5,8 @@ document.cookie
 删除
 将存在时间设置为0即可
 
-cookie属性
+:* **cookie属性**
+
   name  
   value 值是非英文字符在存储的时候需要编码
     encodeURIComponent
@@ -23,7 +24,7 @@ cookie属性
 
   cookie的唯一标识是，name domain path同时一致时
 
-封装cookie
+## 封装cookie
 
 ```js
   const set = (name, value, { maxAge, domain, path, secure } = {}) => {

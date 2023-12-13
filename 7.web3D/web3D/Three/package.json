@@ -1,0 +1,20 @@
+{
+  "name": "threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dat.gui": "^0.7.12",
+    "dat.gui": "^0.7.9",
+    "three": "^0.137.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.159.0"
+  }
+}

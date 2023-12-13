@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<style>
+			body > div {
+				display: grid;
+				grid-template-columns: 100px 100px 100px;
+				grid-template-rows: 100px 100px 100px;
+				/* grid-auto-flow: dense; */
+				/* grid-auto-flow: row; */
+				/* grid-auto-columns: 50px;  */
+				grid-auto-rows: 50px;
+        grid-template-areas: 'a b c'
+          'd e f'
+          'g . .'
+          '. h .'
+          '. . i';
+			}
+			div {
+				border: 1px solid red;
+			}
+			/* .item {
+				grid-column-start: 2;
+				grid-column-end: 4;
+				background: deepskyblue;
+			} */
+      .item-h {
+        grid-area: h;
+      }
+      .item-i {
+        grid-area: i;
+      }
+		</style>
+	</head>
+	<body>
+		<div>
+			<div class="item"><p>1</p></div>
+			<div class="item"><p>2</p></div>
+			<div class="item-1"><p>3</p></div>
+			<div class="item"><p>4</p></div>
+			<div class="item"><p>5</p></div>
+			<div class="item"><p>6</p></div>
+			<div class="item"><p>7</p></div>
+			<div class="item-h"><p>8</p></div>
+			<div class="item-i"><p>9</p></div>
+		</div>
+	</body>
+</html>

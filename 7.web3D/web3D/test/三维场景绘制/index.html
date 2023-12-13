@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>webgl</title>
+  <script src="../lib/init.js"></script>
+  <script src="../lib/matrix.js"></script>
+  <script src="../lib/tools.js"></script>
+
+  <style>
+    #canvas {
+      border: 1px solid black;
+      /* background-color: rgb(203, 255, 238); */
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas" width="600" height="600">
+    此浏览器不支持canvas
+  </canvas>
+
+  <script>
+    let ctx = document.getElementById("canvas");
+    let gl = ctx.getContext("webgl");
+
+    const VERTEX_SHADER_SOURCE = `
+            attribute vec4 aPosition;
+            attribute vec4 aColor;
+            uniform mat4 mat; 
+            varying vec4 vColor;
+            
+            void main() {
+                vColor = aColor;
+                gl_Position = mat * aPosition; 
+            }
+        `;
+
+    const FRAGMENT_SHADER_SOURCE = `
+            precision mediump float; // 必须确定精度，片元着色器中是没有默认精度的
+            varying vec4 vColor;
+            void main() {
+                gl_FragColor = vColor; // 必须确定颜色，片元着色器
+            }
+        `;
+    // 如果uColor不是vec4，则要使用vec4()进行转化
+
+    const program = initShader(
+      gl,
+      VERTEX_SHADER_SOURCE,
+      FRAGMENT_SHADER_SOURCE
+    );
+
+    // 获取attribute变量的位置
+    const aPosition = gl.getAttribLocation(program, "aPosition");
+    const mat = gl.getUniformLocation(program, "mat");
+    const aColor = gl.getAttribLocation(program, "aColor");
+
+    const v0 = [1, 1, 1];
+    const v1 = [-1, 1, 1];
+    const v2 = [-1, -1, 1];
+    const v3 = [1, -1, 1];
+    const v4 = [1, -1, -1];
+    const v5 = [1, 1, -1];
+    const v6 = [-1, 1, -1];
+    const v7 = [-1, -1, -1];
+
+    const points = new Float32Array([
+      ...v0, ...v1, ...v2, ...v0, ...v2, ...v3,
+      ...v0, ...v3, ...v4, ...v0, ...v4, ...v5,
+      ...v0, ...v5, ...v6, ...v0, ...v6, ...v1,
+      ...v1, ...v6, ...v7, ...v1, ...v7, ...v2,
+      ...v7, ...v4, ...v3, ...v7, ...v3, ...v2,
+      ...v4, ...v7, ...v6, ...v4, ...v6, ...v5,
+    ]);
+
+    const vertices = new Float32Array([
+      1, 1, 1,
+      -1, 1, 1,
+      -1, -1, 1,
+      1, -1, 1,
+      1, -1, -1,
+      1, 1, -1,
+      -1, 1, -1,
+      -1, -1, -1,
+    ]);
+    const BYTES = points.BYTES_PER_ELEMENT;
+    const buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+    gl.vertexAttribPointer(aPosition, 3, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(aPosition);
+
+    const colors = new Float32Array([
+      0.4, 0.4, 1.0,
+      0.4, 1.0, 0.4,
+      1.0, 0.4, 0.4,
+      1.0, 0.4, 1.0,
+      0.4, 1.0, 1.0,
+      1.0, 1.0, 0.4,
+      1.0, 1.0, 1.0,
+    ]);
+    const colorsBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, colorsBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, colors, gl.STATIC_DRAW);
+    gl.vertexAttribPointer(aColor, 3, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(aColor);
+
+    const indeces = new Uint8Array([
+      0, 1, 2, 0, 2, 3,
+      0, 3, 4, 0, 4, 5,
+      0, 5, 6, 0, 6, 1,
+      1, 6, 7, 1, 7, 2,
+      7, 4, 3, 7, 3, 2,
+      4, 7, 6, 4, 6, 5,
+    ]);
+
+    const indexBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
+    gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, indeces, gl.STATIC_DRAW);
+
+
+
+    // const color = new Float32Array([
+    //   1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0,
+    //   0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0,
+    //   0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1,
+    //   1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0,
+    //   0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1,
+    //   1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+    // ]);
+    // const colorBuffer = gl.createBuffer();
+    // gl.bindBuffer(gl.ARRAY_BUFFER, colorBuffer);
+    // gl.bufferData(gl.ARRAY_BUFFER, color, gl.STATIC_DRAW);
+    // gl.vertexAttribPointer(aColor, 3, gl.FLOAT, false, 0, 0);
+    // gl.enableVertexAttribArray(aColor);
+    // gl.drawArrays(gl.TRIANGLES, 0, 3 * 6);
+
+    let eyeX = 3,
+      eyeY = 3,
+      eyeZ = 5;
+
+    let deg = 0;
+    const draw = () => {
+      deg += 0.01;
+      // 获取-视图矩阵
+      const vm = getViewMatrix(eyeX, eyeY, eyeZ, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0);
+      const perspective = getPerspective(40, ctx.width / ctx.height, 100, 1);
+      const rotate = getRotateMatrix(deg);
+      gl.enable(gl.DEPTH_TEST);
+      gl.uniformMatrix4fv(mat, false, mixMatrixs(mixMatrixs(perspective, vm), rotate));
+      // gl.drawArrays(gl.TRIANGLES, 0, 3 * 12);
+      gl.drawElements(gl.TRIANGLES, 36, gl.UNSIGNED_BYTE, 0)
+      requestAnimationFrame(draw);
+    };
+    draw();
+
+    // document.onkeydown = (event) => {
+    //   switch (event.keyCode) {
+    //     case 37:
+    //       eyeX += 1;
+    //       break;
+    //     case 38:
+    //       eyeY += 1;
+    //       break;
+    //     case 39:
+    //       eyeX -= 1;
+    //       break;
+    //     case 40:
+    //       eyeY -= 1;
+    //       break;
+    //   }
+    //   draw();
+    // }
+  </script>
+</body>
+
+</html>

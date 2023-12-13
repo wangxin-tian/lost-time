@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>webgl</title>
+    <script src="../lib/init.js"></script>
+    <script src="../lib/matrix.js"></script>
+    <script src="../lib/tools.js"></script>
+
+		<style>
+			#canvas {
+				background-color: rgb(203, 255, 238);
+			}
+		</style>
+	</head>
+
+	<body>
+		<canvas id="canvas" width="600" height="600">
+			此浏览器不支持canvas
+		</canvas>
+
+		<script>
+			let ctx = document.getElementById("canvas");
+			let gl = ctx.getContext("webgl");
+
+			const VERTEX_SHADER_SOURCE = `
+            attribute vec4 aPosition;
+            attribute float aTranslate;
+            attribute float aScale;
+            attribute float aPoint;
+            attribute vec4 aText;
+            varying vec4 vColor;
+            varying vec2 vText;
+            uniform mat4 mat; 
+            void main() {
+                vText = vec2(aText.x, aText.y);
+                //vColor = aPosition;
+                gl_Position = aPosition; // vec4(0.0, 0.0, 0.0, 1.0)
+                gl_PointSize = aPoint;
+            }
+        `;
+
+			const FRAGMENT_SHADER_SOURCE = `
+            precision mediump float; // 必须确定精度，片元着色器中是没有默认精度的
+            uniform vec4 uColor;
+            varying vec4 vColor; // 用于接收顶点着色器传递过来的颜色
+            uniform sampler2D uSampler; // 接收外部传入的纹理数据
+            uniform sampler2D uSampler2;
+            varying vec2 vText; // 接收外部传入的纹理坐标
+            void main() {
+                // gl_FragColor = uColor;
+                vec4 c1 = texture2D(uSampler, vText);
+                vec4 c2 = texture2D(uSampler2, vText);
+                gl_FragColor = c1 * c2; // vec4(1.0, 0.0, 0.0, 1.0) | vColor
+            }
+        `;
+			// 如果uColor不是vec4，则要使用vec4()进行转化
+
+			const program = initShader(
+				gl,
+				VERTEX_SHADER_SOURCE,
+				FRAGMENT_SHADER_SOURCE
+			);
+
+			// 获取attribute变量的位置
+			const aPosition = gl.getAttribLocation(program, "aPosition");
+			const aTranslate = gl.getAttribLocation(program, "aTranslate");
+			const aScale = gl.getAttribLocation(program, "aScale");
+			const aPoint = gl.getAttribLocation(program, "aPoint");
+			const uColor = gl.getUniformLocation(program, "uColor");
+			const mat = gl.getUniformLocation(program, "mat");
+			const aText = gl.getAttribLocation(program, "aText");
+			const uSampler = gl.getUniformLocation(program, "uSampler");
+			const uSampler2 = gl.getUniformLocation(program, "uSampler2");
+
+			const points = new Float32Array([
+				-0.5, 0.5, 10.0, 0.0, 1.0, -0.5, -0.5, 20.0, 0.0, 0.0, 0.5, 0.5,
+				30.0, 1.0, 1.0, 0.5, -0.5, 30.0, 1.0, 0.0,
+				// 0.5, -0.5, 10.0, 0.0, 1.0,
+			]);
+			// 创建缓冲区对象
+			const buffer = gl.createBuffer();
+			// 绑定缓冲区对象
+			gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+			// 将数据写入缓冲区对象以供读取
+			gl.bufferData(gl.ARRAY_BUFFER, points, gl.STATIC_DRAW);
+
+			const BYTES = points.BYTES_PER_ELEMENT;
+			// 为顶点着色器中的属性（如位置、纹理坐标、法线等）设置数据
+			var note = `
+        参数说明：
+          index：指定要修改的顶点属性的索引。
+          size：指定每个顶点属性的组件数量。例如，对于一个3D坐标，这个值为3。
+          type：指定存储在数组中的数据的类型。常见的类型有：
+            GL_FLOAT：32位浮点数。
+            GL_BYTE：8位整数。
+            GL_SHORT：16位整数。
+            GL_INT：32位整数。
+            GL_UNSIGNED_BYTE：8位无符号整数。
+            GL_UNSIGNED_SHORT：16位无符号整数。
+            GL_UNSIGNED_INT：32位无符号整数。
+          normalized：指定当数据被读取时是否应该进行归一化。如果设置为GL_TRUE，则数据会被归一化到[0, 1]或[-1, 1]范围内，具体取决于归一化策略。如果设置为GL_FALSE，则数据将保持其原始值。
+          stride：指定连续顶点属性之间的字节偏移。
+          pointer：指向顶点数据的指针。
+      `;
+			gl.vertexAttribPointer(
+				aPosition,
+				2,
+				gl.FLOAT,
+				false,
+				BYTES * 5,
+				0
+			);
+			// 开启attribute变量
+			gl.enableVertexAttribArray(aPosition);
+
+			gl.vertexAttribPointer(
+				aPoint,
+				1,
+				gl.FLOAT,
+				false,
+				BYTES * 5,
+				BYTES * 2
+			);
+			gl.enableVertexAttribArray(aPoint);
+
+			gl.vertexAttribPointer(
+				aText,
+				2,
+				gl.FLOAT,
+				false,
+				BYTES * 5,
+				BYTES * 3
+			);
+			gl.enableVertexAttribArray(aText);
+
+			// // 绘图
+			// gl.uniform4f(uColor, 0.8, 0.2, 1.0, 1.0);
+			// gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+			// gl.uniform4f(uColor, 0.8, 0.2, 1.0, 1.0);
+			// gl.drawArrays(gl.POINTS, 0, 4);
+
+			// -------------------------------------------------------
+			/** animation - 平移 */
+			// let x = -1,
+			// 	s = 1;
+			// const animation = () => {
+			// 	x += 0.01;
+			// 	s += 0.005;
+			// 	if (x > 1 || s > 2) {
+			// 		x = -1;
+			// 		s = 1;
+			// 	}
+			// 	gl.vertexAttrib1f(aTranslate, x);
+			// 	gl.vertexAttrib1f(aScale, s);
+			// 	gl.drawArrays(gl.TRIANGLE_STRIP, 0, 5);
+			// 	gl.drawArrays(gl.POINTS, 0, 5);
+			// 	requestAnimationFrame(animation);
+			// };
+			// animation();
+			// // setInterval(animation, 1000 / 60);
+
+			// --------------------------------------------------------
+			/** animation - 矩阵平移、缩放、旋转 */
+			// let x = -1,
+			// 	s = 1,
+			// 	d = 0;
+			// const animation = () => {
+			// 	x += 0.01;
+			// 	s += 0.01;
+			// 	d += 0.01;
+			// 	if (x > 1) {
+			// 		x = -1;
+			// 	}
+			// 	if (s > 1) {
+			// 		s = 0;
+			// 	}
+			// 	// const matrix = getTranslateMatrix(x, x);
+			// 	// const matrix = getScaleMatrix(s, s);
+			// 	const matrix = getRotateMatrix(d);
+
+			// 	gl.uniformMatrix4fv(mat, false, matrix);
+			// 	// gl.uniform4f(uColor, 0.8, 0.2, 1.0, 1.0);
+			// 	gl.drawArrays(gl.TRIANGLE_STRIP, 0, 5);
+			// 	// gl.uniform4f(uColor, 0.6, 0.2, 0.8, 1.0);
+			// 	gl.drawArrays(gl.POINTS, 0, 5);
+			// 	requestAnimationFrame(animation);
+			// };
+			// animation();
+
+			// --------------------------------------------------------
+			/** 点击 动态添加点 */
+
+			// repeat program 会被覆盖掉
+			// const programClick = initShader(
+			// 	gl,
+			// 	VERTEX_SHADER_SOURCE,
+			// 	FRAGMENT_SHADER_SOURCE
+			// );
+			// const dynamicPoints = [];
+			// ctx.onclick = function (ev) {
+			// 	const clientx = ev.clientX;
+			// 	const clienty = ev.clientY;
+
+			// 	const domPosition = ev.target.getBoundingClientRect();
+			// 	const domx = domPosition.left;
+			// 	const domy = domPosition.top;
+
+			// 	const halfwidth = ctx.offsetWidth / 2;
+			// 	const halfheight = ctx.offsetHeight / 2;
+
+			// 	const clickX = (clientx - domx - halfwidth) / halfwidth;
+			// 	const clickY = (halfheight - (clienty - domy)) / halfheight;
+
+			// 	console.log(clickX, clickY);
+			// 	const aPosition = gl.getAttribLocation(programClick, "aPosition");
+			// 	const uColor = gl.getUniformLocation(programClick, "uColor");
+
+			// 	dynamicPoints.push({
+			// 		clickX,
+			// 		clickY,
+			// 		red: clickX > 0 ? 1.0 : 0.0,
+			// 		green: clickY > 0 ? 1.0 : 0.0,
+			// 	});
+			// 	dynamicPoints.forEach((item) => {
+			//     console.log(item)
+			// 		gl.uniform4f(uColor, item.red, item.green, 0.0, 1.0);
+			// 		gl.vertexAttrib2f(aPosition, item.clickX, item.clickY);
+			// 		gl.drawArrays(gl.POINTS, 0, 1);
+			// 	});
+			// };
+
+			// -----------------------------------------------------------
+			/** 贴图-光栅化 */
+			function getImage(url, location, index) {
+				return new Promise((resolve) => {
+					const img = new Image();
+					img.onload = function () {
+						// 创建纹理对象
+						const texture = gl.createTexture();
+
+						// 反转y轴
+						gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+
+						// 开启一个纹理单元
+						gl.activeTexture(gl[`TEXTURE${index}`]);
+
+						// 绑定纹理对象
+						gl.bindTexture(gl.TEXTURE_2D, texture);
+
+						// 处理放大缩小的逻辑
+						gl.texParameteri(
+							gl.TEXTURE_2D,
+							gl.TEXTURE_MAG_FILTER,
+							gl.LINEAR
+						);
+						gl.texParameteri(
+							gl.TEXTURE_2D,
+							gl.TEXTURE_MIN_FILTER,
+							gl.LINEAR
+						);
+
+						// 横向 纵向 平铺方式
+						gl.texParameteri(
+							gl.TEXTURE_2D,
+							gl.TEXTURE_WRAP_S,
+							gl.CLAMP_TO_EDGE
+						);
+						gl.texParameteri(
+							gl.TEXTURE_2D,
+							gl.TEXTURE_WRAP_T,
+							gl.CLAMP_TO_EDGE
+						);
+
+						// 配置纹理图像
+						gl.texImage2D(
+							gl.TEXTURE_2D,
+							0,
+							gl.RGBA /* 图像内部格式 */,
+							gl.RGBA /* 纹理内部格式 */,
+							gl.UNSIGNED_BYTE /* 纹理数据的数据类型 */,
+							img
+						);
+
+						// 赋值
+						gl.uniform1i(location, 0);
+            resolve();
+					};
+
+					img.src = url;
+				});
+			}
+
+			Promise.all([
+				getImage("./img/texture2.png", uSampler, 0),
+				getImage("./img/texture.png", uSampler2, 1),
+			]).then(() => {
+        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+      });
+		</script>
+	</body>
+</html>

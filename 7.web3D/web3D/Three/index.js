@@ -26,8 +26,9 @@ document.body.appendChild(renderer.domElement);
 // 创建了一个立方体对象
 // 创建对应材质
 const cubeGeometry = new THREE.BoxGeometry(1, 1, 1);
-// const cubeMaterial = new THREE.MeshLambertMaterial({ color: 0xff0000, wireframe: false });
-const cubeMaterial = new THREE.ShaderMaterial({ 
+const lamberMaterial = new THREE.MeshLambertMaterial({ color: 0xff0000, wireframe: false });
+
+const cubeMaterial = new THREE.ShaderMaterial({
   uniforms: {
     a: {
       type: 'f',
@@ -47,8 +48,8 @@ const cubeMaterial = new THREE.ShaderMaterial({
     }
   `,
   transparent: true,
- });
-const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
+});
+const cube = new THREE.Mesh(cubeGeometry, lamberMaterial);
 scene.add(cube);
 
 // 添加一个球体
@@ -66,13 +67,17 @@ const plane = new THREE.Mesh(planeGeometry, planeMaterial);
 plane.rotateZ(20);
 plane.position.z = -10;
 plane.position.x = 3;
-scene.add(plane);
+
+const mesh = {
+  plane,
+}
+scene.add(mesh.plane);
 
 // 添加一个灯光
 const ambientlight = new THREE.AmbientLight(0xffffff, 0.1);
 const spotLight = new THREE.SpotLight(0xffffff);
 spotLight.position.set(-10, 10, 90);
-scene.add(ambientlight); 
+scene.add(ambientlight);
 scene.add(spotLight);
 
 spotLight.shadow.mapSize.width = 10000;  // default
@@ -90,7 +95,7 @@ renderer.shadowMap.enabled = true;
 // 添加雾化
 scene.fog = new THREE.Fog(0xffffff, 1, 50);
 
-initControls(cubeMaterial, camera);
+initControls(planeGeometry, camera, mesh, scene, planeMaterial);
 function animate() {
   cube.rotation.x += 0.01;
   cube.rotation.y += 0.01;

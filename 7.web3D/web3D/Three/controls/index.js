@@ -2,6 +2,34 @@
 import * as THREE from '../node_modules/three/build/three.module.js';
 import * as dat from '../node_modules/dat.gui/build/dat.gui.module.js';
 
+const removeAndAdd = (item, value, camera, mesh, scene, marterial, controls) => {
+  const position = mesh.plane.position;
+  const rotation = mesh.plane.rotation;
+  scene.remove(mesh.plane);
+  const arg = [];
+  for (const key in controls) {
+    arg.push(controls[key])
+  }
+  mesh.plane = createMaterial(new THREE[item.type](...arg), marterial);
+  console.log(...position)
+  mesh.plane.position.set(...position);
+  mesh.plane.rotation.set(rotation.x, rotation.y, rotation.z);
+  mesh.plane.receiveShadow = true;
+  scene.add(mesh.plane);
+}
+
+const createMaterial = (geometry, marterial) => {
+  return new THREE.Mesh(geometry, marterial);
+}
+
+const getMeshValue = (extend, name) => {
+  return {
+    extends: extend,
+    getValue: (item) => item.parameters[name],
+    setValue: (...arg) => removeAndAdd(...arg),
+  }
+}
+
 const basicType = {
   color: {
     method: 'addColor',
@@ -79,7 +107,9 @@ const basicType = {
     extends: [0, 1],
     getValue: (item) => item.uniforms.a.value,
     setValue: (item, value) => item.uniforms.a.value = value,
-  }
+  },
+  width: getMeshValue([0, 20], 'width'),
+  height: getMeshValue([0, 30], 'height'),
 }
 
 const itemType = {
@@ -90,9 +120,10 @@ const itemType = {
   "MeshBasicMaterial": ['color', 'opacity', 'transparent', 'wireframe', 'visible'],
   "MeshLambertMaterial": ['color', 'opacity', 'transparent', 'wireframe', 'visible', 'emissive', 'side'],
   "ShaderMaterial": ['alpha'],
+  "PlaneGeometry": ['width', 'height', 'widthSegment', 'heightSegment']
 }
-export default function initControls(item, camera) {
-  console.log(item)
+export default function initControls(item, camera, mesh, scene, marterial) {
+  console.log(item, mesh)
   const typeList = itemType[item.type];
   const controls = {};
 
@@ -115,7 +146,7 @@ export default function initControls(item, camera) {
         typeList[i],
         ...childExtends
       ).onChange((value) => {
-        child.setValue(item, value, camera);
+        child.setValue(item, value, camera, mesh, scene, marterial, controls);
       });
     }
 
